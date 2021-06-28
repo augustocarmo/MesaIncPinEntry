@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.PinEntryView.Pin" parent="">
+        <item name="pin_length">4</item>
+        <item name="pin_entryUnitSpacing">8dp</item>
+        <item name="pin_secret">false</item>
+        <item name="pin_entryUnitSecretChar">●</item>
+        <item name="pin_entryUnitWidth">64dp</item>
+        <item name="pin_entryUnitHeight">64dp</item>
+        <item name="pin_secretEntryUnitTextAppearance">@style/TextAppearance.PinEntryView.Pin.Secret</item>
+        <item name="pin_digits_only">true</item>
+        <item name="pin_defaultPinEntryUnitStyle">@style/Widget.PinEntryView.Pin.PinEntryUnit</item>
+        <item name="pin_currentPinEntryUnitStyle">@style/Widget.PinEntryView.Pin.PinEntryUnit.Current
+        </item>
+    </style>
+
+    <style name="Widget.PinEntryView.Pin.PinEntryUnit" parent="">
+        <item name="pinEntryUnit_textAppearance">@style/TextAppearance.PinEntryView.Pin</item>
+        <item name="pinEntryUnit_strokeThickness">2dp</item>
+        <item name="pinEntryUnit_strokeColor">#212121</item>
+        <item name="pinEntryUnit_backgroundCornerRadius">20dp</item>
+        <item name="pinEntryUnit_backgroundColor">#EDEDED</item>
+    </style>
+
+    <style name="Widget.PinEntryView.Pin.PinEntryUnit.Current">
+        <item name="pinEntryUnit_textAppearance">@style/TextAppearance.PinEntryView.Pin</item>
+        <item name="pinEntryUnit_strokeThickness">4dp</item>
+        <item name="pinEntryUnit_strokeColor">#007700</item>
+        <item name="pinEntryUnit_backgroundCornerRadius">20dp</item>
+        <item name="pinEntryUnit_backgroundColor">#EDEDED</item>
+    </style>
+
+</resources>

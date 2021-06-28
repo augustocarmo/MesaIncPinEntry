@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="pinEntryViewStyle" format="reference" />
+
+    <declare-styleable name="PinEntryView">
+        <attr name="pin_pin" format="string" />
+        <attr name="pin_length" format="integer" />
+        <attr name="pin_entryUnitSpacing" format="dimension" />
+        <attr name="pin_secret" format="boolean" />
+        <attr name="pin_entryUnitSecretChar" format="string" />
+        <attr name="pin_entryUnitWidth" format="dimension"/>
+        <attr name="pin_entryUnitHeight" format="dimension"/>
+        <attr name="pin_secretEntryUnitTextAppearance" format="reference" />
+        <attr name="pin_digits_only" format="boolean" />
+        <attr name="pin_defaultPinEntryUnitStyle" format="reference" />
+        <attr name="pin_currentPinEntryUnitStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PinEntryView.EntryUnit">
+        <attr name="pinEntryUnit_textAppearance" format="reference" />
+        <attr name="pinEntryUnit_strokeThickness" format="dimension" />
+        <attr name="pinEntryUnit_strokeColor" format="color" />
+        <attr name="pinEntryUnit_backgroundCornerRadius" format="dimension" />
+        <attr name="pinEntryUnit_backgroundColor" format="color" />
+    </declare-styleable>
+
+</resources>
